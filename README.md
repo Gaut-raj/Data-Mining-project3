@@ -1,6 +1,7 @@
 # Data-Mining-project3
 Introduction: 
-The problem I am aiming to solve is to predict FIFA player's ages based on various skills and finding out what skill or attribute contributes to a high wage. I found my dataset on Kaggle and it includes several attributes like player's age, overall rating, and overall ratings for various different skills like attacking and dribbling. I am trying to predict player wages. 
+The problem I am aiming to solve is to predict FIFA player's wages based on various skills and finding out what skill or attribute contributes to a high wage. I found my dataset on Kaggle and it includes several attributes like player's age, overall rating, and overall ratings for various different skills like attacking and dribbling. I am trying to predict player wages. 
+Link to dataset on kaggle: https://www.kaggle.com/datasets/ulrikthygepedersen/fifa-players
 Pre-Processing: 
 I have dropped the nationality_name column in my dataset because it will be hard to map every nationality since there are several and it will be hard to keep up with them although I understand it might be a significant factor in their wages. 
 
