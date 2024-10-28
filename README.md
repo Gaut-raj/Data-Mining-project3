@@ -9,9 +9,33 @@ How Linear Regression works:
 
 Imagine you have a scatterplot of points representing, say, player age on the x-axis and wages on the y-axis. Linear regression tries to draw a line through these points that best fits the pattern. This line is our "best guess" for predicting wages based on other factors. 
 
+Experiment 1: Data Understanding 
+Countplot to understand the variation of players with different overall ratings 
+Insights with countplot: 
+There are several players with different overall ratings and there are players with ratings as low as 47 and high as 93
+
+![Screenshot 2024-10-28 122459](https://github.com/user-attachments/assets/baa73592-9c44-4206-b4e8-900e8895b95a)
 
 
-Pre-Processing: 
+
+Countplot to understand the variation of nationality names
+Insights: There are several different nationalities that I cannot differentiate from because it is impossible to see the number of nationalities even by editing the size of the countplot 
+
+![Screenshot 2024-10-28 123339](https://github.com/user-attachments/assets/80f4d74e-1463-416a-994e-b3b2b7b9d553)
+
+Visualization 3: 
+Correlation heatmap: 
+Target variable: wage_eur
+Insights: 
+There is a strong correlation between overall ratings, potential ratings, and offensive skills while there is a weaker correlation between defensive and goalkeeping skills. 
+Negative Correlations:
+No strong negative correlations are present with wage_eur in this heatmap, meaning that none of the features inversely impact wages to a significant degree.
+
+![Screenshot 2024-10-28 122853](https://github.com/user-attachments/assets/6033a07e-d19e-458d-8f53-9eba66e3f59a)
+
+
+
+Expirement 1, Pre-Processing: 
 I have dropped the nationality_name column in my dataset because it will be hard to map every nationality since there are several and it will be hard to keep up with them although I understand it might be a significant factor in their wages. 
 
 ![code](https://github.com/user-attachments/assets/c5713158-262e-41a9-baed-32c71be6ee3e)
