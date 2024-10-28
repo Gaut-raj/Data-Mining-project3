@@ -10,6 +10,7 @@ How Linear Regression works:
 Imagine you have a scatterplot of points representing, say, player age on the x-axis and wages on the y-axis. Linear regression tries to draw a line through these points that best fits the pattern. This line is our "best guess" for predicting wages based on other factors. 
 
 Experiment 1: Data Understanding 
+
 Countplot to understand the variation of players with different overall ratings 
 Insights with countplot: 
 There are several players with different overall ratings and there are players with ratings as low as 47 and high as 93
