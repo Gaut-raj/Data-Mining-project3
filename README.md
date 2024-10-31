@@ -86,9 +86,11 @@ Model Evaluation: I achieved a mean absolute error score of 8274.70 which is a b
 
 Impact: 
 My project will not have any negative and positive impacts affecting real life athletes or soccer players since this project uses a dataset from a video game and the wages are completely fictional although the players from this video game exist in real life. 
+
 Positive Impacts: 
 Enhanced gameplay experiences: Contributes to a more realistic and engaging experience for players by accurately predicting player wages. This might improve the performance of team management gameplay modes within the FIFA video game. 
 Fair representation of player attributes: Allows player's wages to closely align with their attributes like overall, potential, and offensive skills 
+
 Negative Impacts: 
 Ethical Considerations in Player Representation: If the model overemphasizes or underestimates certain attributes, it could create skewed perceptions of player value based on characteristics that may not fully represent real-world performance.
 Reinforcement of Biases: Machine learning models can unintentionally reinforce biases present in training data. If certain player attributes are historically undervalued in the dataset, the model might perpetuate these biases in wage predictions, impacting the representation of various player types or demographics.
@@ -97,6 +99,7 @@ It is also important to note that young players of this video game might mistake
 
 References: 
 Regression_example.ipynb(Demo notebook from canvas) 
+
 https://pieriantraining.com/7-machine-learning-regression-algorithms-python/
 
 
