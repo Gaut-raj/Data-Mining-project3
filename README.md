@@ -73,5 +73,14 @@ Switching to SGDregressor significantly improved the model's performance. The Me
 
 ![Screenshot 2024-10-31 091123](https://github.com/user-attachments/assets/3aec154e-6bbe-4202-ad40-f0ff51377ab5)
 
+Expirement 3: 
+
+In Expirement 3, I aimed to improve upon the first and second model by making a change to the model
+
+Model selection: I used a simple linear regression model for the first expirement and a SGDScaler model for the second expirement. I applied Ridge regression in this expirement because idge regression includes a regularization term, which helps manage high-dimensional features and correlated features effectively.
+
+Model Evaluation: I achieved a mean absolute error score of 8274.70 which is a better score the scores I recieved from the first and second model. This reduction in MAE suggests that Ridge regression, may be more effective at capturing patterns in this dataset without overfitting, leading to more accurate wage predictions. 
+
+![Screenshot 2024-10-31 092104](https://github.com/user-attachments/assets/28eae07b-946a-40f6-9556-f00a707685ba)
 
 
