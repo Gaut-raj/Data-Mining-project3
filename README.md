@@ -77,10 +77,25 @@ Expirement 3:
 
 In Expirement 3, I aimed to improve upon the first and second model by making a change to the model
 
-Model selection: I used a simple linear regression model for the first expirement and a SGDScaler model for the second expirement. I applied Ridge regression in this expirement because idge regression includes a regularization term, which helps manage high-dimensional features and correlated features effectively.
+Model selection: I used a simple linear regression model for the first expirement and a SGDScaler model for the second expirement. I applied Ridge regression in this expirement because ridge regression includes a regularization term, which helps manage high-dimensional features and correlated features effectively.
 
 Model Evaluation: I achieved a mean absolute error score of 8274.70 which is a better score the scores I recieved from the first and second model. This reduction in MAE suggests that Ridge regression, may be more effective at capturing patterns in this dataset without overfitting, leading to more accurate wage predictions. 
 
 ![Screenshot 2024-10-31 092104](https://github.com/user-attachments/assets/28eae07b-946a-40f6-9556-f00a707685ba)
+
+Impact: 
+My project will not have any negative and positive impacts affecting real life athletes or soccer players since this project uses a dataset from a video game and the wages are completely fictional although the players from this video game exist in real life. 
+Positive Impacts: 
+Enhanced gameplay experiences: Contributes to a more realistic and engaging experience for players by accurately predicting player wages. This might improve the performance of team management gameplay modes within the FIFA video game. 
+Fair representation of player attributes: Allows player's wages to closely align with their attributes like overall, potential, and offensive skills 
+Negative Impacts: 
+Ethical Considerations in Player Representation: If the model overemphasizes or underestimates certain attributes, it could create skewed perceptions of player value based on characteristics that may not fully represent real-world performance.
+Reinforcement of Biases: Machine learning models can unintentionally reinforce biases present in training data. If certain player attributes are historically undervalued in the dataset, the model might perpetuate these biases in wage predictions, impacting the representation of various player types or demographics.
+It is also important to note that young players of this video game might mistake them to be accurate wages and that this dataset is sligthly outdated since newer versions of the game have been released. 
+References: 
+Regression_example.ipynb(Demo notebook from canvas) 
+https://pieriantraining.com/7-machine-learning-regression-algorithms-python/
+Code: 
+On Code section of this repository
 
 
