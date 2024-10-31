@@ -43,6 +43,9 @@ I have dropped the nationality_name column in my dataset because it will be hard
 
 Experiment: Modeling 
 In this Experiment, I created a linear regression model to predict player wages based on attributes like age, height, and skill ratings. The model was trained on a subset of the data and evaluated using Mean Squared Error (MSE) and R-squared (R²). MSE measures the average squared difference between actual and predicted wages, with lower values indicating better predictions, while R² indicates the proportion of wage variance explained by the model. The resulting metrics provide insights into how well the model captures wage patterns based on player attributes. 
+
+Expirement 1: Evaluation
+
 Scores Achieved: 
 
 Mean Squared Error (MSE): 246773937.67981625
