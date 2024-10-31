@@ -32,7 +32,8 @@ There is a strong correlation between overall ratings, potential ratings, and of
 Negative Correlations:
 No strong negative correlations are present with wage_eur in this heatmap, meaning that none of the features inversely impact wages to a significant degree.
 
-![Screenshot 2024-10-28 122853](https://github.com/user-attachments/assets/6033a07e-d19e-458d-8f53-9eba66e3f59a)
+![output](https://github.com/user-attachments/assets/43409971-f91d-4d08-ae67-492fcad0635c)
+
 
 
 
